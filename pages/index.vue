@@ -1,7 +1,16 @@
 <template>
   <section class="section">
     <div class="columns is-mobile" >
-      <Logo id="thisLogo"/>
+      <div class="column is-6">
+        <Logo id="thisLogo"/>
+      </div>
+      <div class="column is-6" >
+        <div id="paragraph">
+          <p>Hi there, this is my portfolio websites.</p>
+          <br>
+          <p>Hope you guys enjot it! And you are in {{ name }} NOW!</p>
+        </div>
+      </div>
     </div>
   </section>
 </template>
@@ -14,8 +23,20 @@ export default {
 }
 </script>
 
-<style >
+<style>
   #thisLogo{
-    left: 30vw;
+    position: absolute;
+    width: 50vw;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  #paragraph{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    position: absolute;
+    width: 50vw;
+    top: 50%;
+    transform: translateY(-50%);
   }
 </style>

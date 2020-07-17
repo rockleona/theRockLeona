@@ -16,9 +16,8 @@
             height="30"
           >
         </a>
-
-        <b-navbar-item href="/">Landing</b-navbar-item>
-        <b-navbar-item href="/intro">Introducing</b-navbar-item>
+        
+        <a class="navbar-item" href="/intro">Introducing</a>
 
         <div class="navbar-burger">
           <span />
@@ -27,33 +26,10 @@
         </div>
       </div>
     </nav>
-    <div class="container row is-centered">
-      <div class="container row is-1"></div>
-      <div class="container row is-10">
-        <nuxt />
-      </div>
-      <div class="container row is-1"></div>
-    </div>
+    <nuxt/>
   </div>
 </template>
 
-<script>
-export default {
-  data () {
-    return {
-      items: [
-        {
-          title: 'Home',
-          icon: 'home',
-          to: { name: 'index' }
-        },
-        {
-          title: 'Inspire',
-          icon: 'lightbulb',
-          to: { name: 'inspire' }
-        }
-      ]
-    }
-  }
-}
-</script>
+<style >
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+</style>
