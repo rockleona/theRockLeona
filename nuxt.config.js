@@ -1,18 +1,11 @@
-const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
-  router: {
-    base: '/theRockLeona/'
-  }
-} : {}
-
 export default {
-  ...routerBase,
   /*
   ** Nuxt rendering mode
   ** See https://nuxtjs.org/api/configuration-mode
   */
   mode: 'spa',
   router:{
-    base:'/home/'
+    base:'/theRockLeona/'
   },
   /*
   ** Nuxt target
