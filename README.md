@@ -1,5 +1,8 @@
 # therockleon
 
+## Hi There
+This is my testing project w/ using Nuxt.js and buefy. 
+
 ## Build Setup
 
 ```bash
