@@ -22,7 +22,7 @@
           <a class="navbar-item" href="http://github.com/rockleona">
             <b-icon icon="github"></b-icon>
           </a>
-          <a class="navbar-item" href="http://instagram.com/rockleona">
+          <a class="navbar-item" href="http://instagram.com/rockleonaz">
             <b-icon icon="instagram"></b-icon>
           </a>
       </div>
