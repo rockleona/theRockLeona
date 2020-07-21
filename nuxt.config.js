@@ -58,22 +58,17 @@ export default {
     [
       'nuxt-i18n',
       {
+        vueI18nLoader: true,
         locales:['en','tc'],
         defaultLocale:'en',
         vueI18n:{
           fallbackLocale:'en',
           messages:{
             en:{
-              greetings:'You have received Hello from RockLeon!',
               profile:'Profile',
-              firstLineLand:'Hi there, this is my portfolio websites.',
-              secondLineLand:'Hope you guys enjot it!',
             },
             tc:{
-              greetings:'RockLeon向你揮揮手：「你好啊!」',
               profile:'簡介',
-              firstLineLand:'「這是我的作品集網站」',
-              secondLineLand:'「希望你們可以玩得開心、看得開心XD」',
             }
           }
         }
